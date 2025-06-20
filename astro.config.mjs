@@ -1,3 +1,13 @@
+import dotenv from 'dotenv';
+dotenv.config({ path: '.env.production' });
+
+import { defineConfig } from 'astro/config';
+
+export default defineConfig({
+  site: 'https://example.com', // update with your domain later
+});
+
+
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 
