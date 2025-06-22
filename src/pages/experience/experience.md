@@ -1,23 +1,17 @@
-<div style="margin-bottom: 20px;">
-  <strong style="">
-  Machine Perception and Intelligence Lab
-  </strong><br />
+[**Machine Perception and Intelligence Lab**](https://mpil-gist.github.io/)
+<div style="margin-top: -10px; margin-bottom: 20px;">
   <em>Undergraduate research intern<br /></em>
   <span style="color:gray;">Summer 2024 - Present</span>
 </div>
 
-<div style="margin-bottom: 20px;">
-  <strong style="">
-  Bio Robotics Lab
-  </strong><br />
+[**Bio Robotics Lab**](https://sites.google.com/view/bioroboticslab)
+<div style="margin-top: -10px; margin-bottom: 20px;">
   <em>Undergraduate research intern<br /></em>
   <span style="color:gray;">Spring 2022 - Spring 2023</span>
 </div>
 
-<div style="margin-bottom: 20px;">
-  <strong style="">
-  Agency for Defense Development, South Korea
-  </strong><br />
-  <em>Researcher (mandatory military service)<br /></em>
+[**Agency for Defense Development**](https://www.add.re.kr/kps)
+<div style="margin-top: -10px; margin-bottom: 20px;">
+  <em>Research scientist<br /></em>
   <span style="color:gray;">Summer 2027 - Summer 2030</span>
 </div>
