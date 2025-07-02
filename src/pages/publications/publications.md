@@ -15,5 +15,5 @@
 
 [**📌Dynamically Spreading Shootable Adhesives Inspired by Dough Spinning**](https://advanced.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.202419489)
 <div style="font-size: 13px; margin-top: -10px; margin-bottom: 20px;">
-  Sungbum Cho, et al. (Advanced Function Materials 2024)
+  Sungbum Cho, et al. (Advanced Functional Materials 2024)
 </div>

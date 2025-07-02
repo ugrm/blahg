@@ -12,6 +12,7 @@
 
 [**Agency for Defense Development**](https://www.add.re.kr/kps)
 <div style="margin-top: -10px; margin-bottom: 20px;">
-  <em>Research scientist<br /></em>
+  <em>Research scientist<br /></em> 
+  <em>Mandatory military service<br /></em> 
   <span style="color:gray;">Summer 2027 - Summer 2030</span>
 </div>
