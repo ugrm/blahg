@@ -4,6 +4,7 @@
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
 :root {
+	accent-color: var(--blue);
 	--white: #efefef;
 	--transwhite: rgba(239, 239, 239, 0.7);
 	--moretranswhite: rgba(239, 239, 239, 0.1);
@@ -12,12 +13,19 @@
 	--moretransblack: rgba(37, 37, 37, 0.1);
 	--gray: #6b6b6b;
 	--highlight: #e5ffc3;
-	--red: #e4002b;
-	--green: #24d05a;
-	--pink: #eb4888;
-	--blue: #10a2f5;
-	--yellow: #e9bc3f;
+	--red:    #ff1245;  /* was #e4002b */
+	--green:  #26e36a;  /* was #24d05a */
+	--pink:   #ff5aa5;  /* was #eb4888 */
+	--blue:   #0ea5ff;  /* was #10a2f5 */
+	--yellow: #f0c23a;  /* was #e9bc3f */
 }
+
+/* Make links and header imagery feel more vibrant without changing the palette */
+a { text-decoration-thickness: 0.18em; text-underline-offset: 0.18em; }
+
+img { filter: saturate(1.12) contrast(1.05); }
+
+nav { backdrop-filter: blur(1px) saturate(1.08) contrast(1.04); }
 
 ::selection {
 	background-color: var(--highlight);
@@ -112,13 +120,13 @@ h6 {
 header {
 	position: relative;
 }
-
+/*
 a {
 	color: var(--black);
 	text-decoration-thickness: 0.3ex;
 	text-underline-offset: 0.3ex;
 }
-
+*/
 nav {
 	position: sticky;
 	top: 0;
