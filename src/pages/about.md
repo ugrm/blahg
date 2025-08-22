@@ -1,6 +1,6 @@
 Hi! I am a fourth-year undergraduate student at GIST. Currently, I am an undergraduate student intern at [MPIL](https://mpil-gist.github.io/).
 
-My research interests are primarily in robotics and perception. Right now, I am working on geometry-based floorplan localization. I aim to advance sensory augmentation for humans and robots, integrating auditory and olfactory sensing beyond human limits to uncover hidden dimensions of the world and new ways to understand it.
+I work at the intersection of robotics and perception, currently focusing on geometry-based floorplan localization. More broadly, I explore sensory augmentation for humans and robots by integrating modalities like sound and smell. I believe our field is limited by anthropocentric bias, and my vision is to let each modality speak in its own terms, revealing dimensions of the world beyond RGB and human intuition.
 
 Email: jeahnhaan(at)gm(dot)gist(dot)ac(dot)kr
 
