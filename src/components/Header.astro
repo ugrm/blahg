@@ -1,0 +1,59 @@
+---
+import HeaderLink from "./HeaderLink.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+---
+
+<header>
+	<div class="header-section">
+		<div class="header-frame">
+			<img src="/profile_picture_3.jpg" alt="Banner Image" class="header-image" />
+
+			<h1 class="site-title">{SITE_TITLE}</h1>
+			<h2 class="site-description">{SITE_DESCRIPTION}</h2>
+		</div>
+	</div>
+</header>
+<nav class="nav-links">
+  <HeaderLink href="/">about</HeaderLink>
+  <HeaderLink href="/education">education</HeaderLink>
+  <HeaderLink href="/publications">publications</HeaderLink>
+  <HeaderLink href="/experience">experience</HeaderLink>
+</nav>
+
+<style>
+.header-section {
+	display: flex;
+	justify-content: center; /* horizontally centers */
+	align-items: center;
+	flex-direction: column; /* stacks items vertically */
+	padding: 1rem 0;
+	text-align: center; /* ensures text is centered */
+}
+
+.header-frame {
+	max-width: 300px; /* Adjust as needed */
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header-image {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 8px;
+}
+
+.site-title, .site-description {
+	margin: 0rem 0;
+	text-align: center; /* explicitly center text */
+}
+
+.nav-links {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	padding-top: 1rem;
+}
+</style>
