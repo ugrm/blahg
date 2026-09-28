@@ -1,3 +1,8 @@
+<a href="https://ugrm.github.io/diagonal-regularizer/"><strong>📄Why Learning Rediscovers the Closed-Form Diagonal Regularizer</strong></a>
+<div style="font-size: 13px; margin-top: -10px; margin-bottom: 20px;">
+  <strong>Jeahn Han</strong>, <a href="https://mpil-gist.github.io/people/Pyojin_Kim/">Pyojin Kim</a> (NeurIPS 2026)
+</div>
+
 <a href="https://somaslam.github.io/"><strong>📄SoMaSLAM: 2D Graph SLAM for Sparse Range Sensing with Soft Manhattan World Constraints</strong></a>
 <div style="font-size: 13px; margin-top: -10px; margin-bottom: 20px;">
   <strong>Jeahn Han</strong>, <a href="https://www.zichaohu.com/">Zichao Hu</a>, Seonmo Yang, <a href="https://minjikim-18.github.io/minjikim.github.io/">Minji Kim</a>, <a href="https://mpil-gist.github.io/people/Pyojin_Kim/">Pyojin Kim</a> (RA-L 2025)
