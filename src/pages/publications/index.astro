@@ -33,3 +33,69 @@ const tags = getTags(posts);
 		<ColorScript />
 	</body>
 </html>
+
+<style is:global>
+	.pub-group {
+		margin-top: 1.5em;
+	}
+	.pub-year {
+		margin: 0 0 0.5em;
+		width: max-content;
+		transform: translateX(calc(-100% - 20px));
+	}
+	@media (max-width: 800px) {
+		.pub-year {
+			transform: none;
+		}
+	}
+	.pub-row {
+		display: flex;
+		gap: 4%;
+		align-items: flex-start;
+	}
+	.pub {
+		container-type: inline-size;
+		flex: 0 1 48%;
+		min-width: 0;
+		margin-bottom: 14px;
+		transition: flex-basis 0.25s ease;
+	}
+	.pub:hover {
+		flex: 0 0 71%;
+	}
+	.pub > * {
+		font-size: 3.4cqw;
+		line-height: 1.4;
+	}
+	.pub-title {
+		display: block;
+		font-weight: bold;
+		color: var(--black);
+	}
+	.pub-authors,
+	.pub-venue {
+		margin-top: 0.2em;
+	}
+	.pub-venue {
+		color: var(--gray);
+	}
+	@media (prefers-color-scheme: dark) {
+		body .pub-title {
+			color: var(--white);
+		}
+	}
+	@media (hover: none), (max-width: 600px) {
+		.pub-row {
+			flex-direction: column;
+			gap: 0;
+		}
+		.pub,
+		.pub:hover {
+			flex: 0 0 auto;
+			width: 100%;
+		}
+		.pub > * {
+			font-size: 13px;
+		}
+	}
+</style>
