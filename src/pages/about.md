@@ -1,6 +1,4 @@
-Hi! I am a fourth-year undergraduate student at GIST. Currently, I am an undergraduate student intern at [MPIL](https://mpil-gist.github.io/).
-
-I explore sensory augmentation for humans and robots by integrating modalities like sound and smell. I believe our field is limited by anthropocentric bias, and my vision is to let each modality speak in its own terms, revealing dimensions of the world beyond RGB and human intuition.
+I'm a fourth-year undergraduate at GIST and a research intern at [MPIL](https://mpil-gist.github.io/). I work on augmenting humans and robots with non-visual senses, currently sound and smell. Vision-centric systems inherit human priors about what is worth sensing, so I'm interested in learning representations from each modality's own structure rather than forcing it into an RGB-shaped frame.
 
 Email: jeahnhaan(at)gm(dot)gist(dot)ac(dot)kr
 

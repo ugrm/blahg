@@ -269,6 +269,9 @@ ul li time {
 }
 
 @media (max-width: 600px) {
+	nav a {
+		margin: 8px 0;
+	}
 	nav a:not(:last-child) {
 		padding: 0;
 	}

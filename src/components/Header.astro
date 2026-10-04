@@ -17,6 +17,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
   <HeaderLink href="/">about</HeaderLink>
   <HeaderLink href="/education">education</HeaderLink>
   <HeaderLink href="/publications">publications</HeaderLink>
+  <HeaderLink href="/services">services</HeaderLink>
   <HeaderLink href="/experience">experience</HeaderLink>
 </nav>
 
@@ -53,7 +54,8 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 .nav-links {
 	display: flex;
 	justify-content: center;
-	gap: 1rem;
+	flex-wrap: wrap;
+	gap: 0.25rem 1rem;
 	padding-top: 1rem;
 }
 </style>
