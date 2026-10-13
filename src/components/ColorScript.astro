@@ -1,5 +1,5 @@
 <script is:inline>
-	let colors = ["#24d05a", "#eb4888", "#10a2f5", "#e9bc3f"];
+	let colors = ["#E3000F", "#0057B8", "#FFD100"];
 
 	function getRandomColor() {
 		return colors[Math.floor(Math.random() * colors.length)];
@@ -8,6 +8,21 @@
 	function setRandomLinkColor() {
 		Array.from(document.getElementsByTagName("a")).forEach((e) => {
 			e.style.textDecorationColor = getRandomColor();
+		});
+	}
+
+	function setNavColors() {
+		const tabs = Array.from(document.querySelectorAll("nav a"));
+		const paint = (i) => {
+			const taken = [tabs[i - 1], tabs[i + 1]].filter(Boolean).map((t) => t.dataset.color);
+			const options = colors.filter((c) => !taken.includes(c));
+			const color = options[Math.floor(Math.random() * options.length)];
+			tabs[i].dataset.color = color;
+			tabs[i].style.color = color;
+		};
+		tabs.forEach((e, i) => {
+			paint(i);
+			e.addEventListener("mouseover", () => paint(i));
 		});
 	}
 
@@ -20,5 +35,6 @@
 	(function () {
 		setRandomLinkColor();
 		setColorHoverListener();
+		setNavColors();
 	})();
 </script>

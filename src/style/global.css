@@ -21,7 +21,7 @@
 }
 
 /* Make links and header imagery feel more vibrant without changing the palette */
-a { text-decoration-thickness: 0.18em; text-underline-offset: 0.18em; }
+a { color: inherit; text-decoration-thickness: 0.18em; text-underline-offset: 0.18em; }
 
 img { filter: saturate(1.12) contrast(1.05); }
 
@@ -45,7 +45,7 @@ html,
 body,
 button,
 code {
-	font-family: "iA Writer Mono", monospace;
+	font-family: "Jost", "Futura", "Century Gothic", sans-serif;
 }
 h1,
 strong,
